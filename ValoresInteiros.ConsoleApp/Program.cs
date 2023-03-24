@@ -26,7 +26,6 @@ namespace ValoresInteiros.ConsoleApp
             Console.WriteLine($"o valor médio é: {valorMedio}");
 
             int tresMaioresValores = EncontrarTresMaioresValores(valoresInteiros);
-            Console.WriteLine($"Esses são os três maiores valores: {tresMaioresValores}");
 
             Console.Write($"Os valores negativos são: ");
             EncontrarValoresNegativos(valoresInteiros);
